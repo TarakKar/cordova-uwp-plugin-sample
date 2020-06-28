@@ -1,0 +1,7 @@
+{
+  "name": "CordovaUwpPluginSample",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

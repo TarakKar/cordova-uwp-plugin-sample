@@ -1,0 +1,16 @@
+{
+  "name": "cordova-custom-plugin-Win10",
+  "version": "0.0.1",
+  "description": "Unvired Cordova Plugin",
+  "main": "gulpfile.js",
+  "cordova": {
+    "id": "cordova-custom-plugin-Win10",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Unvired Inc."
+}

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-custom-plugin-Win10" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>cordova-custom-plugin-Win10</name>
+    <js-module name="UnviredSDK" src="www/kernel.js">
+        <clobbers target="window.ump" />
+    </js-module>
+
+     <!-- windows -->
+    <platform name="windows">
+        <js-module src="src/windows/KernelProxy.js" name="KernelProxy">
+            <runs />
+        </js-module>
+        <!-- <framework src="src/windows/Unvired.Cordova.WinRT.winmd" custom="true"/> -->
+        <!-- <framework src="src/windows/Newtonsoft.Json.dll" custom="true"/>
+        <framework src="src/windows/Unvired.Kernel.UWP.dll" custom="true"/> -->
+    </platform>
+  
+</plugin>
